@@ -152,3 +152,34 @@ body {
     color: black;
   }
 
+  #pool--div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  #pool {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #pool--heading {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  #pool--heading--desc {
+    margin-right: auto;
+  }
+  #pool--pools {
+    text-align: center;
+  }
+  #pool--footer {
+    display: flex;
+  }
+  #pool--footer div {
+    border-width: 1px;
+    border-radius: 15px;
+    margin-right: 10px;
+  }

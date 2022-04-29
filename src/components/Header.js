@@ -9,7 +9,7 @@ export default function Header(props) {
                 <button id="middle--menu--swap--button" value="swap" className={props.chosenPage == "swap" ? 'middle--menu--chosen' : ""} onClick={() => props.setChosenPage("swap")}>Swap</button>
                 <button id="middle--menu--pool-button" value="pool" className={props.chosenPage == "pool" ? 'middle--menu--chosen' : ""} onClick={() => props.setChosenPage("pool")}>Pool</button>
                 <button id="middle--menu--vote--button" value="vote" className={props.chosenPage == "vote" ? 'middle--menu--chosen' : ""} onClick={() => props.setChosenPage("vote")}>Vote</button>
-                <button id="middle--menu--charts--button">Charts</button>
+                <a id="middle--menu--charts--button" href="https://info.uniswap.org" target="_blank">Charts</a>
             </div>
 
             <div id="right--menu">
