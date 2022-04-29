@@ -22,11 +22,11 @@ export default function Pool() {
                 </div>
                 <div id="pool--footer">
                     <div id="pool--footer--learn">
-                        <span>Learn about providing liquidity</span>
+                        <h2 id="pool--footer--learn--heading">Learn about providing liquidity</h2>
                         <span>Check out our v3 LP walkthrough and migration guides.</span>
                     </div>
                     <div id="pool--footer--top">
-                        <span>Top pools</span>
+                        <h2 id="pool--footer--top--heading">Top pools</h2>
                         <span>Explore Uniswap Analytics.</span>
                     </div>
                 </div>

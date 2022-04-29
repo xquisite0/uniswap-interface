@@ -162,6 +162,7 @@ body {
   #pool {
     display: flex;
     flex-direction: column;
+    gap: 20px;
   }
 
   #pool--heading {
@@ -171,6 +172,7 @@ body {
   }
   #pool--heading--desc {
     margin-right: auto;
+    font-size: 20px;
   }
   #pool--pools {
     text-align: center;
@@ -181,5 +183,29 @@ body {
   #pool--footer div {
     border-width: 1px;
     border-radius: 15px;
-    margin-right: 10px;
+    padding: 20px;
+  }
+  #pool--footer--learn {
+    margin-right: 15px;
+  }
+  #pool--footer--learn--heading, #pool--footer--top--heading {
+    font-weight: bold;
+  }
+
+  #pool--heading--newpos {
+    background-color: #e8016e;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+  }
+
+  #pool--pools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #a5a6ae;
+    border-radius: 15px;
+    height: 25vh;
   }
