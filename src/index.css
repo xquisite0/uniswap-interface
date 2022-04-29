@@ -169,6 +169,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: right;
+    gap: 5px;
   }
   #pool--heading--desc {
     margin-right: auto;
@@ -191,8 +192,7 @@ body {
   #pool--footer--learn--heading, #pool--footer--top--heading {
     font-weight: bold;
   }
-
-  #pool--heading--newpos {
+  #pool--heading--newpos, #vote--heading--create {
     background-color: #e8016e;
     height: 50px;
     width: 150px;
@@ -208,4 +208,70 @@ body {
     color: #a5a6ae;
     border-radius: 15px;
     height: 25vh;
+  }
+
+  #vote--div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #vote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    gap: 20px;
+  }
+  #vote--description {
+    background: linear-gradient(45deg, green, black);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #vote--heading {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    align-items: center;
+  }
+
+  #vote--heading--desc {
+    font-size: 20px;
+  }
+
+  .vote--proposals--proposal {
+    display: flex;
+    width: 50vw;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+  }
+  .vote--proposals--proposal--status {
+    margin-left: auto;
+    border-radius: 15px;
+    border-width: 2px;
+    padding: 5px;
+  }
+  .vote--proposals--proposal--title {
+    font-weight: bold;
+  }
+  .executed {
+    color: green;
+    border-color: green;
+  }
+  .defeated {
+    color: red;
+    border-color: red;
+  }
+
+  #vote--footer {
+    font-weight: 100;
   }
